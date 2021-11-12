@@ -49,7 +49,7 @@
                             <a class="nav-link active text-primary" aria-current="page" href="insert.php">Insert</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-primary" aria-current="page" href="retrieve.php">Retrieve</a>
+                            <a class="nav-link active text-primary" aria-current="page" href="index.php">Retrieve</a>
                         </li> 
                     </ul>
                     <form class="d-flex" method="POST">
@@ -59,7 +59,7 @@
                 </div>
             </div>
         </nav>
-        <div class="container mt-5">
+        <div class="container mt-4">
         <h2>Publisher Details</h2>
         <div class="card mt-3 mb-2">
             <div class="card-body">
