@@ -63,6 +63,7 @@
         <h2>Publisher Details</h2>
         <div class="card mt-3 mb-2">
             <div class="card-body">
+            <div class="table-responsive">
                 <table class="table">
                     <thead>
                         <tr>
@@ -88,7 +89,7 @@
                             <td> <?php echo $record['branch']?> </td>
                             <td> <?php echo $record['sdate']?> </td>
                             <td style="text-align:right"> 
-                                <a href="delete.php?p_id=<?php echo $record['p_id']?>" class="btn btn-danger">Delete &nbsp;</a>
+                                <a href="delete.php?p_id=<?php echo $record['p_id']?>" class="btn btn-danger">Delete</a>
                                 <a href="update.php?p_id=<?php echo $record['p_id']?>" class="btn btn-warning">Update</a>
                                 <!--<input type="button" name="Delete" class="btn btn-danger" value="Delete"/>
                                 <button type="button" class="btn btn-warning">Update</button> -->
@@ -98,6 +99,7 @@
                         <?php }?>
                     </tbody>
                 </table>
+            </div>
             </div>
         </div>
     </div>
